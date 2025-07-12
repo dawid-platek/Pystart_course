@@ -1,4 +1,4 @@
-temperature = int(input("Enter the temperature in degrees Celsius: "))
+temperature = float(input("Enter the temperature in degrees Celsius: "))
 if temperature <= 10:
     print("Stay at home!"),
 elif 10 < temperature <= 20:
